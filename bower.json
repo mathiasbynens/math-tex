@@ -1,7 +1,7 @@
 {
 	"name": "math-tex",
-	"version": "0.0.0",
-	"main": "src/math-tex.html",
+	"version": "1.0.0",
+	"main": "dist/math-tex.html",
 	"ignore": [
 		"**/.*",
 		"node_modules",

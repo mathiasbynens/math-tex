@@ -1,6 +1,6 @@
 {
 	"name": "math-tex",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "A web component for mathematical typesetting using TeX notation.",
 	"homepage": "https://mths.be/math-tex",
 	"main": "math-tex.html",
