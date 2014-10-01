@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>math-tex demo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="import" href="math-tex.html">
+<style>
+	html { font: 1em/1.5 sans-serif; }
+	pre, code { font-family: Monaco, monospace; }
+	body { max-width: 40em; margin: 0 auto; }
+</style>
+<h1>math-tex</h1>
+<p><i>math-tex</i> is a web component for mathematical typesetting using TeX notation. It is written for browsers that fully support the web components stack, and falls back to a <code>&lt;code></code> element that displays the TeX source code for the formula in older browsers. The typesetting itself is handled by <a href="https://khan.github.io/KaTeX/">the excellent <code is="math-tex">\KaTeX</code> library</a>.</p>
+<p>For more information, see <a href="https://github.com/mathiasbynens/math-tex">the <i>math-tex</i> repository on GitHub</a>.</p>
+<h2>Some quick examples</h2>
+<h3>Example 1</h3>
+<pre><code>&lt;p&gt;<br>  The equation for sample standard deviation is<br>  &lt;code is=&quot;math-tex&quot;&gt;<br>    s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}<br>  &lt;/code&gt;.<br>&lt;/p&gt;</code></pre>
+<p>The equation for sample standard deviation is <code is="math-tex">s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}</code>.</p>
+<h3>Example 2</h3>
+<pre><code>&lt;p&gt;<br>  What is<br>  &lt;code is=&quot;math-tex&quot;&gt;f(x) = \frac{x}{x-1}&lt;/code&gt;<br>  for<br>  &lt;code is=&quot;math-tex&quot;&gt;x = 1&lt;/code&gt;?<br>&lt;/p&gt;</code></pre>
+<p>What is <code is="math-tex">f(x) = \frac{x}{x-1}</code> for <code is="math-tex">x = 1</code>?</p>

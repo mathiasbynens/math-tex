@@ -1,0 +1,16 @@
+{
+	"name": "math-tex",
+	"version": "0.0.0",
+	"main": "src/math-tex.html",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"src",
+		"tests",
+		"gulpfile.js"
+	],
+	"devDependencies": {
+		"katex": "~0.1.0"
+	}
+}
