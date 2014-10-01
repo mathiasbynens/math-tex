@@ -16,12 +16,6 @@ Via [npm](http://npmjs.org/):
 npm install math-tex
 ```
 
-Via [Bower](http://bower.io/):
-
-```bash
-bower install math-tex
-```
-
 ## Usage
 
 In your HTML document, import the web component in the `<head>`:
