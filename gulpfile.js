@@ -57,7 +57,7 @@ gulp.task('vulcanize', function() {
 gulp.task('build', ['js', 'copy', 'vulcanize']);
 
 gulp.task('default', ['build', 'connect'], function() {
-	gulp.watch(['bower_components', 'src/*.html'], ['build']);
+	gulp.watch(['bower_components', 'src/*'], ['build']);
 });
 
 gulp.task('connect', function() {

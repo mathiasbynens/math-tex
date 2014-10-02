@@ -2,7 +2,7 @@
 
 _math-tex_ is a web component for [mathematical typesetting using TeX notation](https://en.wikibooks.org/wiki/LaTeX/Mathematics).
 
-It is written for browsers that fully support the web components stack, and falls back to a `<code>` element that displays the TeX source code for the formula in older browsers.
+It is written for [browsers that fully support the web components stack](http://caniuse.com/#search=web components), and falls back to a `<code>` element that displays the TeX source code for the formula in older browsers.
 
 The typesetting itself is handled by [the excellent KaTeX library](https://khan.github.io/KaTeX/).
 
@@ -47,7 +47,7 @@ Creating such elements dynamically or updating their `innerHTML` / `textContent`
 
 ## Browser support
 
-_math-tex_ is written for browsers that fully support the web components stack. In older browsers, it falls back to a `<code>` element that displays the TeX source code for the formula.
+_math-tex_ is written for [browsers that fully support the web components stack](http://caniuse.com/#search=web components). In older browsers, it falls back to a `<code>` element that displays the TeX source code for the formula.
 
 | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png)
 |---|---|---|---|---|
