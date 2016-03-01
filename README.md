@@ -10,7 +10,7 @@ The typesetting itself is handled by [the excellent KaTeX library](https://khan.
 
 ## Installation
 
-Via [npm](http://npmjs.org/):
+Via [npm](https://www.npmjs.com/):
 
 ```bash
 npm install math-tex

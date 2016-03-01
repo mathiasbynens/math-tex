@@ -11,6 +11,6 @@
 		"gulpfile.js"
 	],
 	"devDependencies": {
-		"katex": "~0.1.0"
+		"katex": "~0.5.1"
 	}
 }

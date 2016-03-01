@@ -12,12 +12,12 @@ gulp.task('js', function () {
 gulp.task('copy', function() {
 	gulp
 		.src([
-			'bower_components/katex/build/katex.min.js',
+			'bower_components/katex/dist/katex.min.js',
 			'src/example.html'
 		])
 		.pipe(gulp.dest('dist'));
 	gulp
-		.src('bower_components/katex/build/fonts/*')
+		.src('bower_components/katex/dist/fonts/*')
 		.pipe(gulp.dest('dist/fonts'));
 });
 
@@ -39,7 +39,7 @@ gulp.task('vulcanize', function() {
 		.pipe($.replace(
 			/@import url\([^)]+katex\.min\.css\);/,
 			require('fs')
-				.readFileSync('bower_components/katex/build/katex.min.css', 'utf-8')
+				.readFileSync('bower_components/katex/dist/katex.min.css', 'utf-8')
 				.toString()
 		))
 		// Replace the `<script>` tags with simplified versions.
